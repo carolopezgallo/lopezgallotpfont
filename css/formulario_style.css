@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(../img/photo7.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+.contenedor{
+    background: #fff;
+    border-radius: 7px;
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+}
+
+.cabecera{
+    color: blueviolet;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+.cabecera p{
+    color: black;
+    margin-top: 15px;
+}
+#formulario{
+    padding: 30px 20px;
+}
+.form-control{
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 7px;
+    font-weight: 200px;
+}
+.form-control input {
+    border:none;
+    background-color:#f0f0f0af ;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+}
+.form-control, input:focus {
+    outline: none;
+}
+form-control.ok input {
+    border: 0.1px solid;
+    border-color:greenyellow;
+}
+.form-control.falla input {
+    border: 0.1px solid;
+    border-color: #fe5f55;
+}
+#formulario button {
+    background:#a45fb9af;
+    border: 1px solid #a46fb9af;
+    border-radius: 2px;
+    color: aliceblue;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+.form-control p {
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    text-align: right;
+}
+
+.form-control.falla p {
+    visibility: visible;
+    color:#e74c3c;
+}
+button{
+    cursor: pointer;
+}
+
+
+@media screen and ( max-width:1100px) {
+    form{
+        width:50%
+    }
+    
+}
+
+@media screen and ( max-width:600px) {
+    form{
+        width:60%
+    }
+   
+}
+@media screen and ( max-width:450px) {
+    form{
+        width:80%
+    }
+   
+}
+
+
+
+
+
+
+
+
+    
+

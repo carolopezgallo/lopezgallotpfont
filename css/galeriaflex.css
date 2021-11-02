@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #E0B9D3;
+    padding: 0;
+}
+
+.galeria{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+ img{
+    width: 100%;
+    
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+ @media  (max-width:800px){
+     .column{ 
+         flex:50%;
+     }
+ }
+
+ @media  ( max-width:600px){
+     .column{
+         flex:100%;
+     }
+ }

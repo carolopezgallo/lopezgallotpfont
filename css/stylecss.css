@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+h1, h2 {
+    color: #1d273b;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 50px;
+}
+.contenedor_nav{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.Textos-header{
+    margin: 0 0 0 30px;
+    
+
+}
+
+/*DISCOGRAFIA Y TOUR*/
+.contenedor1{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 0;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:#F8E0F0 ;
+}
+
+ .contenedor1 img{
+     width: 290px;
+     padding: 30px 30px 45px;
+     font-weight: 100;
+     padding-bottom: 20px;
+    margin: 5px;  
+ }
+
+
+.textos_contenedor1 h2 {
+    font-size: 40px;
+   
+}
+
+.albun{
+    font-family: fantasy;
+}
+
+
+
+/*responsive*/
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .contenedor1{
+        width:890px ;
+        
+    }
+}
+
+@media screen and (max-width:600px) {
+    .contenedor1 {
+        width: 45%;
+        flex-direction: column;
+    }
+
+    .h1{
+        font-size: 45px;
+    }
+  
+    
+    
+}
+
+@media screen and (max-width:400px) {
+    .contenedor1{
+        width: 95%;
+        flex-direction: column;
+    }
+}
